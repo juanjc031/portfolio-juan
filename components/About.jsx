@@ -1,6 +1,6 @@
 import react from "react"
 import Image from "next/image";
-import notebook from '../public/assets/notebook.JPG'
+
 
 const About = () => {
     return (
@@ -14,7 +14,7 @@ const About = () => {
                     <p className="py-2 text-[#3a3a3a]">Estou cursando o 2° ano no colégio Cotemig, referência no ensino de TI e Informática.</p>
                 </div>
                 <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 easy-in duration-300">
-                    <Image src={notebook} className="rounded-xl" alt="noteboo" width="500" height="550" />
+                    <img src='../public/assets/notebook.JPG' className="rounded-xl" alt="noteboo" width="500" height="550" />
                 </div>
             </div>
         </div>
