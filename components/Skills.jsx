@@ -1,5 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import HTML from '../public/assets/HTML.png'
+import tailwind from '../public/assets/tailwind.png'
+import javascript from '../public/assets/javascript.png'
+import nextjs from '../public/assets/nextjs.png'
+import node from '../public/assets/node.png'
+import react from '../public/assets/react.png'
 import {GrMysql} from 'react-icons/gr'
 import {TbCSharp} from 'react-icons/tb'
 
@@ -15,7 +21,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto ">
-                            <Image className="rounded-xl" src="/../public/assets/html.png" alt="/" width="64" height="64" />
+                            <Image className="rounded-xl" src={HTML} alt="html" width="64" height="64" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>HTML</h3>
@@ -26,18 +32,18 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                            <Image className="rounded-xl" src="/../public/assets/tailwind.png" alt="/" width="64" height="64" />
+                            <Image className="rounded-xl" src={tailwind} alt="tailwind" width="64" height="64" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Tailwind CSS</h3>
                             </div>
                         </div>
-                    </div>     
+                    </div>
 
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                            <Image className="rounded-xl" src="/../public/assets/javascript.png" alt="/" width="64" height="64" />
+                            <Image className="rounded-xl" src={javascript} alt="javascript" width="64" height="64" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Java Script</h3>
@@ -48,7 +54,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                            <Image className="rounded-xl" src="/../public/assets/nextjs.png" alt="/" width="64" height="64" />
+                            <Image className="rounded-xl" src={nextjs} alt="nextjs" width="64" height="64" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Next Js</h3>
@@ -59,7 +65,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                            <Image className="rounded-xl" src="/../public/assets/node.png" alt="/" width="64" height="64" />
+                            <Image className="rounded-xl" src={node} alt="/" width="64" height="64" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>Node Js</h3>
@@ -70,7 +76,7 @@ const Skills = () => {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                            <Image className="rounded-xl" src="/../public/assets/react.png" alt="/" width="64" height="64" />
+                            <Image className="rounded-xl" src={react} alt="/" width="64" height="64" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>React Js</h3>
