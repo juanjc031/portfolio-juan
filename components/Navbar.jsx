@@ -1,5 +1,6 @@
 
 import Image from 'next/image' 
+import logojuan2 from '../public/assets/logojuan2.JPG'
 import Link from 'next/link'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
@@ -50,7 +51,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <div className='ml-10 mt-1'>
                 <Link  href=''>
-                <Image src='../public/assets/logojuan2.jpg' alt="logo" width="80" height="80"/>
+                <Image src={logojuan2} alt="logo" width="80" height="80"/>
                 </Link>
                 </div>
                 <div>
