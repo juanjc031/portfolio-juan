@@ -56,7 +56,7 @@ const Navbar = () => {
                 <div>
                     <ul style={{color: `${cor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='transition-all ml-10 text-sm uppercase hover:text-stone-500 text-black' >Home</li>
+                            <li className='transition-all ml-10 text-sm uppercase hover:text-stone-500 text-black' >Homeeee</li>
                         </Link>
                         <Link href='/#sobre'>
                             <li className='transition-all ml-10 text-sm uppercase hover:text-stone-500 text-black' >Sobre</li>
