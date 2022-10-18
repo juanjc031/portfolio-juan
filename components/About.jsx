@@ -1,6 +1,6 @@
 import react from "react"
 import Image from "next/image"
-import pagabout from '../public/assets/pagaabout.png'
+import pagabout from '../assets/pagabout.png'
 
 
 const About = () => {
