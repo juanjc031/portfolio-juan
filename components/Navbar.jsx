@@ -1,7 +1,5 @@
 
 import Image from 'next/image' 
-import logo2Image from '../public/assets/logojuan2.JPG'
-import logo4Image from '../public/assets/logojuan4.JPG'
 import Link from 'next/link'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
@@ -52,7 +50,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <div className='ml-10 mt-1'>
                 <Link  href=''>
-                <img src={logo2Image} alt="logo" width="80" height="80"/>
+                <Image src='../public/assets/logojuan2.jpg' alt="logo" width="80" height="80"/>
                 </Link>
                 </div>
                 <div>
@@ -84,7 +82,7 @@ const Navbar = () => {
                                     : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between '>
-                            <Image src={logo4Image} width="80" height="80" alt='logo' />
+                            <Image src='../public/assets/logojuan4.jpg' width="80" height="80" alt='logo' />
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>
