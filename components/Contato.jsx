@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import pagcontato from '../public/assets/pagcontato.png'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
@@ -19,7 +20,7 @@ const Contato = () => {
                     <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
                         <div className="lg:p-4 h-full ">
                             <div>
-                                <img src='/../public/assets/contatoo.JPG' className="rounded-xl hover:scale-105 ease-in duration-300"  alt="contato" width="640" height="427" />
+                                <Image src={pagcontato} className="rounded-xl hover:scale-105 ease-in duration-300"  alt="contato" width="640" height="427" />
                             </div>
                             <div className='py-2'>
                                 <h2>Juan Costa</h2>
