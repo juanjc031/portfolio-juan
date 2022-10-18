@@ -1,7 +1,7 @@
 
 import Image from 'next/image' 
-import logo2Image from '/../public/assets/logojuan2.jpg'
-import logo4Image from '/../public/assets/logojuan4.jpg'
+import logo2Image from '../public/assets/logojuan2.JPG'
+import logo4Image from '../public/assets/logojuan4.JPG'
 import Link from 'next/link'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
