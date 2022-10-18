@@ -13,9 +13,9 @@ const Projetos = () => {
                 <h2 className='py-4'>O que eu já fiz</h2>
                 <div className='grid md:grid-cols-2 gap-8'> 
 
-                    <ProjetoItem title='App de controle financeiro' backgroundImg={controleImg} projectUrl='#' tech='React JS'/>
+                    <ProjetoItem title='App de controle financeiro' backgroundImg={controleImg} projectUrl='https://financas-juan.vercel.app' tech='React JS'/>
 
-                    <ProjetoItem title='Calculadora' backgroundImg={calculadoraImg} projectUrl='#' tech='JS'/>
+                    <ProjetoItem title='Calculadora' backgroundImg={calculadoraImg} projectUrl='https://calculadora-juan.vercel.app' tech='JS'/>
 
                 </div>
             </div>
