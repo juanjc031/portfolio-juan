@@ -1,11 +1,11 @@
 
-import Image from 'next/image'
-import Link from 'next/link'
-import React, {useState, useEffect} from 'react'
-import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {useRouter} from 'next/router'
+import Image from 'next/image';
+import Link from 'next/link';
+import React, {useState, useEffect} from 'react';
+import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
+import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {useRouter} from 'next/router';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -50,7 +50,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <div className='ml-10 mt-1'>
                 <Link  href=''>
-                <Image  src="/../public/assets/logojuan2.jpg" alt="/" width="80" height="80" />
+                <Image  src={/../public/assets/logojuan2.jpg} alt="/" width="85" height="80" />
                 </Link>
                 </div>
                 <div>
