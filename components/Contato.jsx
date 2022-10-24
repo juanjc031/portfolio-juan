@@ -56,7 +56,7 @@ const Contato = () => {
                         <div className='p-4 '>
                             <form action="https://formsubmit.co/juancostacizilio@gmail.com" method="POST">
                                 <input type="hidden" name="_captcha" value="false"  />
-                                <input type="hidden" name="_next" value="http://localhost:3000/" />
+                                <input type="hidden" name="_next" value="https://portfolio-juancosta.vercel.app" />
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'> Nome </label>
