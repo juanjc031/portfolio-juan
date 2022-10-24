@@ -6,6 +6,7 @@ import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {useRouter} from 'next/router'
+import Link from 'next/link'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -55,7 +56,7 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul style={{color: `${cor}`}} className='hidden md:flex'>
-                        <Link href='/'>
+                        <Link  href='/'>
                             <li className='transition-all ml-10 text-sm uppercase hover:text-stone-500 text-black' >Home</li>
                         </Link>
                         <Link href='/#sobre'>
