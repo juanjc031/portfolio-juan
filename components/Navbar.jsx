@@ -1,5 +1,5 @@
 import Image from 'next/image' 
-import juanlogo from '../public/assets/juanlogo.PNG'
+import juanlogo from '../public/assets/juanlogo.png'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
