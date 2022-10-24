@@ -1,12 +1,11 @@
-
-import Image from 'next/image' 
-import juanlogo from '../public/assets/jualogo.PNG'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {useRouter} from 'next/router'
 import Link from 'next/link'
+import Image from 'next/image'
+import juanlogo1 from '../public/assets/juanlogo.PNG'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -51,7 +50,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <div className='ml-4 mt-1'>
                 <Link  href=''>
-                <Image src={juanlogo} alt="logo" width="80" height="80"/>
+                <Image src={juanlogo1} alt="logo" width="80" height="80"/>
                 </Link>
                 </div>
                 <div>
@@ -83,7 +82,7 @@ const Navbar = () => {
                                     : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between '>
-                            <Image src={juanlogo} width="80" height="80" alt='logo' />
+                            <Image src={juanlogo1} width="80" height="80" alt='logo' />
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>
