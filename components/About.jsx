@@ -14,7 +14,7 @@ const About = () => {
                     <p className="py-2 text-[#7b7b7b]">Tenho total interesse em desenvolver minhas habilidades e contribuir para o crescimento da empresa!</p>
                     <p className="py-2 text-[#7b7b7b]">Estou cursando o 2° ano no colégio Cotemig, referência no ensino de TI e Informática.</p>
                 </div>
-                <div className="w-full h-auto m-auto shadow-xl shadow-gray-900 rounded-xl flex items-center justify-center p-4 hover:scale-105 easy-in duration-300">
+                <div className="w-full h-auto m-auto shadow-xl shadow-gray-900 rounded-xl flex items-center justify-center p-4 easy-in duration-300">
                 <Image src={sobre} className="rounded-xl" alt="notebook" width="500" height="550" />
                 </div>
             </div>

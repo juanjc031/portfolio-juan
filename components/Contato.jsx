@@ -21,7 +21,7 @@ const Contato = () => {
                     <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-900 rounded-xl p-4">
                         <div className="lg:p-4 h-full ">
                             <div>
-                            <Image src={contact} alt="contato" className="rounded-xl hover:scale-105 ease-in duration-300"  width="640" height="427" />
+                            <Image src={contact} alt="contato" className="rounded-xl ease-in duration-300"  width="640" height="427" />
                             </div>
                             <div className='py-2'>
                                 <h2>Juan Costa</h2>
@@ -56,7 +56,7 @@ const Contato = () => {
                         <div className='p-4 '>
                             <form action="https://formsubmit.co/juancostacizilio@gmail.com" method="POST">
                                 <input type="hidden" name="_captcha" value="false"  />
-                                <input type="hidden" name="_next" value="https://juan-costa.vercel.app" />
+                                <input type="hidden" name="_next" value="https://portfolio-juan.vercel.app/" />
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'> Nome </label>
