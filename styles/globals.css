@@ -8,7 +8,7 @@ html{
 
 @layer base {
   body {
-    @apply bg-[#d3d3d3] text-[#000000] tracking-wide
+    @apply bg-[#d3d3d3] dark:bg-[#030509] text-[#7b7b7b] tracking-wide
   }
 
   h1,h2,h3,h4,h5,h6 {
@@ -24,10 +24,22 @@ html{
   }
 
   li{
-    @apply cursor-pointer font-semibold
+    @apply cursor-pointer font-semibold text-[#7b7b7b]
   }
 
   button{
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-blue-900 to-blue-500 text-white
+  }
+
+  p{
+    @apply text-[#7b7b7b]
+  }
+
+  ::-webkit-scrollbar{
+    @apply w-1
+  }
+
+  ::-webkit-scrollbar-thumb{
+    @apply w-1 bg-[#0E3C89]
   }
 }
