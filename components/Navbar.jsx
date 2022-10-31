@@ -49,7 +49,7 @@ const Navbar = () => {
 
     return (
         
-        <div className={shadow ? `fixed w-full h-24 shadow-xl z-[100]  bg-[#020305] -mt-15` : `fixed w-full h-24 z-[100]  bg-[#030509] -mt-15`}>
+        <div className={shadow ? `fixed w-full h-24 shadow-xl shadow-gray-900 z-[100]  bg-[#020305] -mt-15` : `fixed w-full h-24 z-[100]  bg-[#030509] -mt-15`}>
             <div className='flex justify-between items-center w-full px-2 2xl:px-16 h-full'>
                 <div className='ml-4 mt-1 '>
                     <Link href=''>
@@ -82,8 +82,22 @@ const Navbar = () => {
                             <li className='transition-all ml-10 text-sm uppercase hover:text-stone-500 ' >Contato</li>
                         </Link>
                     </ul>
-                    <div onClick={handleNav} className='md:hidden cursor-pointer'>
+                    <div className='flex gap-5'>
+
+                    <div  className='md:hidden cursor-pointer flex gap-5'>
+                    <div>                            
+                        {darkIcon ? <CiDark className='cursor-pointer dark:text-white' size={25} onClick={() => {
+                        document.querySelector('html').classList.toggle('dark')
+                        setDark(!darkIcon)
+                        }} /> : <CiLight className='cursor-pointer dark:text-white' size={25} onClick={() => {
+                        document.querySelector('html').classList.toggle('dark')
+                        setDark(!darkIcon)
+                        }} />}
+                        </div>
+                        <div onClick={handleNav} className='md:hidden cursor-pointer flex gap-5'>
                         <AiOutlineMenu size={25} />
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -105,19 +119,19 @@ const Navbar = () => {
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
                             <Link href='/'>
-                                <li className='py-4 text-sm'>Home</li>
+                                <li onClick={handleNav} className='py-4 text-sm'>Home</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Sobre</li>
+                            <Link href='/#sobre'>
+                                <li onClick={handleNav} className='py-4 text-sm'>Sobre</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Habilidades</li>
+                            <Link href='/#habilidades'>
+                                <li onClick={handleNav} className='py-4 text-sm'>Habilidades</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Projetos</li>
+                            <Link href='/#projetos'>
+                                <li onClick={handleNav} className='py-4 text-sm'>Projetos</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Contato</li>
+                            <Link href='/#contato'>
+                                <li onClick={handleNav} className='py-4 text-sm'>Contato</li>
                             </Link>
                         </ul>
                         <div className='pt-40 '>
