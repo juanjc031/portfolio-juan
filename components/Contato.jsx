@@ -32,12 +32,12 @@ const Contato = () => {
                             <div>
                                 <p className='uppercase pt-8'>Vamos nos conectar!</p>
                                 <div className='flex items-center justify-between py-4'>
-                                <Link href="/">
+                                <Link href="https://www.linkedin.com/in/juancostacizilio/">
                                 <div className='rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <FaLinkedinIn className="text-[#0e3c89]"/>
                                 </div>
                                 </Link>
-                                <Link href="/">
+                                <Link href="https://github.com/juanjc031">
                                 <div className='rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <FaGithub className="text-[#0e3c89]"/>
                                 </div>
@@ -76,14 +76,17 @@ const Contato = () => {
                                     <label className='uppercase text-sm py-2'> Mensagem </label>
                                     <textarea name="mensagem" required className='border-2 rounded-lg p-3 border-gray-300' rows="10"> </textarea>
                                 </div>
-                                <button type="submit" className='w-full p-4 text-gray-100 mt-4 shadow-xl shadow-gray-900 rounded-xl uppercase bg-gradient-to-r from-blue-900 to-blue-500 text-white'>Enviar mensagem</button>
+                                <div className='flex justify-end'>
+                                <span className='mt-4 animate-ping absolute inline-flex h-3 w-3 rounded-full bg-blue-500 opacity-75 border-black'></span>
+                                <button type="submit" className='w-full p-4 text-gray-100 mt-4 shadow-xl shadow-gray-900 rounded-xl uppercase bg-gradient-to-r from-blue-900 to-blue-500 '>Enviar mensagem</button>
+                                </div>
                             </form>
                         </div>
                     </div>
                 </div>
                 <div className='flex justify-center py-12'>
                     <Link href='/'>
-                        <div className='rounded-full shadow-lg shadow-gray-900 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg shadow-gray-900 p-4 cursor-pointer hover:scale-110 ease-in duration-300 animate-bounce'>
                             <HiOutlineChevronDoubleUp className='m-auto text-blue-900' size={30} />
                         </div>
                     </Link>

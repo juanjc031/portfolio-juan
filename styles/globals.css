@@ -8,12 +8,15 @@ html{
 
 @layer base {
   body {
-    @apply bg-[#d3d3d3] dark:bg-[#030509] text-[#7b7b7b] tracking-wide
+    @apply  bg-[#fcf9f6] dark:bg-[#030509] text-[#000000] dark:text-[#c4c4c4] tracking-wide duration-500
   }
 
+
+
   h1,h2,h3,h4,h5,h6 {
-    @apply font-bold
+    @apply font-bold 
   }
+
 
   h1{
     @apply text-4xl sm:text-5xl md:text-6xl
@@ -40,6 +43,6 @@ html{
   }
 
   ::-webkit-scrollbar-thumb{
-    @apply w-1 bg-[#0E3C89]
+    @apply w-1 dark:bg-[#0E3C89] bg-[#030509]
   }
 }

@@ -49,7 +49,7 @@ const Navbar = () => {
 
     return (
         
-        <div className={shadow ? `fixed w-full h-24 shadow-xl shadow-gray-900 z-[100]  bg-[#020305] -mt-15` : `fixed w-full h-24 z-[100]  bg-[#030509] -mt-15`}>
+        <div className={shadow ? `duration-700 fixed w-full h-24 shadow-xl shadow-gray-900 z-[100]  bg-[#020305] -mt-15` : `duration-700 fixed w-full h-24 z-[100]  bg-[#030509] -mt-15`}>
             <div className='flex justify-between items-center w-full px-2 2xl:px-16 h-full'>
                 <div className='ml-4 mt-1 '>
                     <Link href=''>
@@ -58,10 +58,10 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul style={{ color: `${cor}` }} className='hidden md:flex'>
-                        {darkIcon ? <CiDark className='cursor-pointer dark:text-white' size={25} onClick={() => {
+                        {darkIcon ? <CiDark className='cursor-pointer dark:text-white ' size={25} onClick={() => {
                             document.querySelector('html').classList.toggle('dark')
-                            setDark(!darkIcon)
-                        }} /> : <CiLight className='cursor-pointer dark:text-white' size={25} onClick={() => {
+                            setDark(!darkIcon)}} /> 
+                            : <CiLight className='cursor-pointer dark:text-white ' size={25} onClick={() => {
                             document.querySelector('html').classList.toggle('dark')
                             setDark(!darkIcon)
                         }} />}
@@ -94,7 +94,7 @@ const Navbar = () => {
                         setDark(!darkIcon)
                         }} />}
                         </div>
-                        <div onClick={handleNav} className='md:hidden cursor-pointer flex gap-5'>
+                        <div onClick={handleNav} className='md:hidden cursor-pointer flex gap-5 active:bg-black'>
                         <AiOutlineMenu size={25} />
                         </div>
                     </div>
