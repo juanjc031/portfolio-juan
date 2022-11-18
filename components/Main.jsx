@@ -11,7 +11,7 @@ const Main = () => {
         <div id='main' className='w-full h-screen text-center'>
             <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center' >
                 <div>
-                        <p className='uppercase text-sm tracking-widest font-bold'>Vamos construir algo lendário juntos</p>
+                        <p className='uppercase text-sm tracking-widest font-bold text-[#7b7b7b]'>Vamos construir algo lendário juntos</p>
                         <h1 className='py-4 '>Olá! Eu sou o <span className='text-[#0E3C89]'>Juan</span></h1>
                         <Typed className='py-1 text-1xl font-bold sm:text-5xl md:text-5xl' 
                         strings={['Desenvolvedor Web', 'Portfólio feito em React, Next e Tailwind CSS', 'Portfólio 100% responsivo']} 

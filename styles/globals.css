@@ -8,7 +8,7 @@ html{
 
 @layer base {
   body {
-    @apply  bg-[#fcf9f6] dark:bg-[#030509] text-[#000000] dark:text-[#c4c4c4] tracking-wide duration-500
+    @apply  bg-[#fcf9f6] dark:bg-[#030509]  tracking-wide duration-500 text-[#000000] dark:text-[#c4c4c4]
   }
 
 
@@ -34,9 +34,7 @@ html{
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-blue-900 to-blue-500 text-white
   }
 
-  p{
-    @apply text-[#7b7b7b]
-  }
+
 
   ::-webkit-scrollbar{
     @apply w-1

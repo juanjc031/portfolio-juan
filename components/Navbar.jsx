@@ -95,7 +95,7 @@ const Navbar = () => {
                         }} />}
                         </div>
                         <div onClick={handleNav} className='md:hidden cursor-pointer flex gap-5 active:bg-black'>
-                        <AiOutlineMenu size={25} />
+                        <AiOutlineMenu size={25} className='text-white' />
                         </div>
                     </div>
                     </div>
