@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  * {
+    @apply dark:!shadow-gray-900 !shadow-gray-500;
+  }
+
+  body {
+    @apply bg-[#fcf9f6] dark:bg-[#030509] overflow-x-hidden tracking-wide duration-500 text-[#050505] dark:text-[#c4c4c4];
+  }
+
+  @keyframes bounceUpDown {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(15px);
+    }
+  }
+
+  .bounce-up-down {
+    animation: bounceUpDown 4s infinite;
+  }
+  
+  h1 {
+    @apply text-4xl/*  sm:text-5xl md:text-6xl */;
+  }
+  
+  h2 {
+    @apply text-3xl/*  sm:text-4xl */;
+  }
+  
+  li {
+    @apply cursor-pointer font-semibold text-[#7b7b7b];
+  }
+  
+  ::-webkit-scrollbar {
+    @apply w-1; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply  bg-[#0E3C89] rounded-[6px]; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply rounded-[6px]; 
+  }
+
+  .customSwal {
+    @apply dark:!bg-[#030509] bg-[#fcf9f6]
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+}
