@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about from "../public/assets/pagabout.png";
+import aboutImagem from "../public/assets/sobreImagem.png";
 import { motion } from "framer-motion";
 import { fadeInAnimationVariantsLeft } from "./Main";
 import { fadeInAnimationVariantsRight } from "./Main";
@@ -48,7 +48,7 @@ const About = () => {
           transition={{ type: "spring", stiffness: 800, damping: 10 }}
           className="mmd:w-3/4 w-1/4  m-auto shadow-lg shadow-gray-900 rounded-xl flex items-center justify-center p-4"
         >
-          <Image src={about} className="rounded-xl" alt="/" />
+          <Image src={aboutImagem} className="rounded-xl" alt="/" />
         </motion.div>
       </div>
     </div>
