@@ -93,15 +93,15 @@ const Contact = () => {
         <p className="text-xl tracking-widest uppercase text-[#0E3C89]">
           Contato
         </p>
-        <div className="grid lg:grid-cols-5 gap-8">
+        <div className="grid md:grid-cols-5 gap-8">
           <motion.div
             variants={fadeInAnimationVariantsLeft}
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-900 rounded-xl p-4"
+            className="col-span-3 md:col-span-2 w-full h-full shadow-xl shadow-gray-900 rounded-xl p-4"
           >
-            <div className="lg:px-4 lg:pt-4 lg:pb-2 h-full ">
+            <div className="md:px-4 md:pt-4 md:pb-2 h-full ">
               <div>
                 <Image
                   src={contact}
@@ -160,7 +160,7 @@ const Contact = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="col-span-3 w-full h-auto shadow-xl shadow-gray-900 rounded-xl lg:p-4"
+            className="col-span-3 w-full h-auto shadow-xl shadow-gray-900 rounded-xl md:p-4"
           >
             <div className="p-4 ">
               <form onSubmit={sendEmail} method="POST">
