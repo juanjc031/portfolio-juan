@@ -46,7 +46,7 @@ const About = () => {
           viewport={{ once: true }}
           whileHover={{ scale: 1.03 }}
           transition={{ type: "spring", stiffness: 800, damping: 10 }}
-          className="mmd:w-3/4 w-1/4  m-auto shadow-lg shadow-gray-900 rounded-xl flex items-center justify-center p-4"
+          className="mmd:w-3/4 w-1/4  m-auto shadow-lg shadow-gray-900 rounded-xl flex items-center justify-center p-4 mb-6"
         >
           <Image src={aboutImagem} className="rounded-xl" alt="/" />
         </motion.div>

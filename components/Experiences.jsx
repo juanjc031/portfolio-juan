@@ -26,7 +26,7 @@ const Experiences = () => {
   return (
     <div
       id="experiencias"
-      className="overflow-x-hidden w-full py-8 pt-24 flex-col text-start"
+      className="overflow-x-hidden w-full py-8  flex-col text-start"
     >
       <div className="w-full cursor-default h-full mx-auto p-2 flex-col mmd:px-0 px-16 justify-start items-center">
         <motion.h2
