@@ -88,7 +88,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contato" className="overflow-x-hidden mmd:h-full mmd:mt-4 w-full">
+    <div id="contato" className="overflow-x-hidden  w-full">
       <div className=" m-auto p-16 mmd:p-6 w-full">
         <p className="text-xl tracking-widest uppercase text-[#0E3C89]">
           Contato

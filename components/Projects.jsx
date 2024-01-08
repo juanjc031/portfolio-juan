@@ -76,7 +76,7 @@ const Projetos = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="cursor-default relative overflow-hidden flex flex-col items-start justify-center h-auto md:w-[48%] shadow-xl shadow-gray-900 rounded-xl pb-4 px-4 group hover:bg-gradient-to-r from-[#000000] to-[#0e0e0e]"
+            className="cursor-default relative overflow-hidden flex flex-col items-start justify-center h-auto md:w-[48%] shadow-xl md:shadow-gray-900 rounded-xl pb-4 px-4 group hover:bg-gradient-to-r from-[#000000] to-[#0e0e0e] mb-10"
             whileHover={{ scale: 1.03 }}
             transition={{ type: "spring", stiffness: 800, damping: 10 }}
           >

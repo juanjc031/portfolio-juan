@@ -1,13 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import priceSnifferImg from "../public/assets/PriceSniffer.png";
-import { RiRadioButtonFill } from "react-icons/ri";
-/* import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import { FaArrowLeft } from "react-icons/fa6"; */
-import Link from "next/link"; /* 
-import { BiArrowToRight, BiLogoTailwindCss } from "react-icons/bi";
-
-import { RiJavascriptFill } from "react-icons/ri"; */
+import Link from "next/link"; 
 
 const priceSniffer = () => {
   return (

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const priceSniffer = () => {
   return (
-    <div className="w-full h-screen !bg-[#030509] !text-white">
+    <div className="w-full h-full !bg-[#030509] !text-white">
       <div className="w-full h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[40vh] bg-black/70 z-10" />
         <Image className="absolute z-1" layout="fill" src={controle} alt="/" />
