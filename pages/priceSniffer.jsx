@@ -30,12 +30,13 @@ const priceSniffer = () => {
           <p>Projeto</p>
           <h2>Visão geral</h2>
           <p className="mt-4">
-            Desenvolvi também o PriceSniffer, ou o "Farejador de preços", que é
-            um projeto em que o cliente (normalmente uma distribuidora), realiza
-            a entrada de seus produtos e preços que desejam que sejam
-            monitorados, após isso o nosso sistema compara o preço do produto do
-            nosso cliente com outros diversos marketplaces, assim retornando um
-            relatório completo de como o cliente está diante da concorrência.
+            Desenvolvi também o PriceSniffer, ou o &quot;Farejador de
+            preços&quot;, que é um projeto em que o cliente (normalmente uma
+            distribuidora), realiza a entrada de seus produtos e preços que
+            desejam que sejam monitorados, após isso o nosso sistema compara o
+            preço do produto do nosso cliente com outros diversos marketplaces,
+            assim retornando um relatório completo de como o cliente está diante
+            da concorrência.
           </p>
           <p className="mt-2">
             O projeto permite que o cliente personalize a maioria dos quesitos,

@@ -13,6 +13,7 @@ const ProjetoItem = ({ title, backgroundImg, tech, projectUrl, width, height }) 
           src={backgroundImg}
           width={width}
           height={height}
+          alt="Img"
         />
       </div>
       <div className="flex-col items-center hover:ease-in-out hidden group-hover:block group-hover:bottom-[6rem] mmd:group-hover:bottom-[3rem] mmd:group-hover:right-[6px] px-3 -bottom-full absolute gap-2 justify-evenly w-full">
