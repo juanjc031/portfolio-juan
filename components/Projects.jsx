@@ -15,7 +15,8 @@ const Projetos = () => {
         <p className="text-xl tracking-widest uppercase text-[#0E3C89]">
           Projetos
         </p>
-        <h2 className="pb-8 -mt-2 text-[#0E3C89]">Trabalhos já realizados</h2>
+        <h2 className=" -mt-2 text-[#0E3C89]">Trabalhos já realizados</h2>
+        <p className=" text-[#0E3C89] -mt-1 tracking-wide uppercase pb-8">  Passe o mouse para mais informações </p>
         <div className="flex justify-start flex-wrap items-center gap-8">
           <motion.div
             variants={fadeInAnimationVariantsLeft}
