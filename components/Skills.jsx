@@ -75,10 +75,6 @@ let items = [
     icon: <FiFramer className={size} />,
   },
   {
-    desc: "Vercel",
-    icon: <SiVercel  className={size} />,
-  },
-  {
     desc: "EmailJs",
     icon: <MdOutlineAlternateEmail className={size} />,
   },
